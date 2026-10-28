@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+# checkpoints are large (EfficientNet ~16 MB each); keep them on Google Drive
+results/checkpoints/
+.gradio/
+flagged/
+results_export.zip

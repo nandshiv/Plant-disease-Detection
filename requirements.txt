@@ -1,0 +1,13 @@
+# Colab already has torch/torchvision with CUDA; pip will keep those.
+# On a laptop without GPU you can install the smaller CPU build first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.3
+torchvision>=0.18
+numpy
+matplotlib
+scikit-learn
+pillow
+huggingface_hub>=0.20
+gradio>=4.44
+reportlab>=4.0      # only for scripts/build_viva_pdfs.py
+pymupdf             # only for checking the PDFs (renders pages to PNG)
